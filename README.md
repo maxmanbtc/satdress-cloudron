@@ -2,6 +2,10 @@
 
 Federated Lightning Address Server
 
+---------------
+This is an attempt to make a Cloudron app of Satdress. The below instructions is for Docker. Instructions for Cloudron will apear as soon the app is tested and working.
+---------------
+
 ## How to run
 
 1. Download the binary from the releases page (or compile with `go build` or `go get`)
