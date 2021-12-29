@@ -1,4 +1,4 @@
-# Satdress
+# Satdress-cloudron
 
 Federated Lightning Address Server
 
