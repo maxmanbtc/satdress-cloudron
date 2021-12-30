@@ -6,15 +6,15 @@ services:
     container_name: satdress
     environment:
       - PORT=17422
-      - DOMAIN=satdress.com
-      - SECRET=askdbasjdhvakjvsdjasd
-      - SITE_OWNER_URL=https://t.me/fiatjaf
-      - SITE_OWNER_NAME=@fiatjaf
-      - SITE_NAME=Satdress
+      - DOMAIN=satoshis.se
+      - SECRET=soryakfqomdu3r9d5b1x
+      - SITE_OWNER_URL=https://maxmanbtc.com
+      - SITE_OWNER_NAME=@maxmanbtc
+      - SITE_NAME=Satoshis.se
     ports:
       - 17422:17422
     volumes:
-      - satdress-data:/satdress.com
+      - satdress-data:/satoshis.se
 
 volumes:
   satdress-data:

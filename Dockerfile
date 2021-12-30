@@ -12,10 +12,10 @@ RUN go build
 FROM alpine:3.14
 
 ENV PORT=17422
-ENV DOMAIN=satdress.com
-ENV SECRET=askdbasjdhvakjvsdjasd
-ENV SITE_OWNER_URL=https://t.me/fiatjaf
-ENV SITE_OWNER_NAME=@fiatjaf
+ENV DOMAIN=satoshis.se
+ENV SECRET=soryakfqomdu3r9d5b1x
+ENV SITE_OWNER_URL=https://maxmanbtc.com
+ENV SITE_OWNER_NAME=@maxmanbtc
 ENV SITE_NAME=Satdress
 
 COPY --from=builder /opt/buid/satdress /usr/local/bin/
