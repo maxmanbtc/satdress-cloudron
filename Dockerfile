@@ -1,6 +1,6 @@
 FROM golang:1.16.0-alpine AS builder
 
-WORKDIR /opt/buid
+WORKDIR /Users/stefanjohansson
 
 COPY ./*.go ./*.html ./go.mod ./go.sum ./
 COPY static ./static
@@ -18,7 +18,7 @@ ENV SITE_OWNER_URL=https://maxmanbtc.com
 ENV SITE_OWNER_NAME=@maxmanbtc
 ENV SITE_NAME=Satdress
 
-COPY --from=builder /opt/buid/satdress /usr/local/bin/
+COPY --from=builder /Users/stefanjohansson/satdress-cloudron /usr/local/bin/
 
 EXPOSE 17422
 
