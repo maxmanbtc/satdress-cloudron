@@ -18,7 +18,7 @@ ENV SITE_OWNER_URL=https://maxmanbtc.com
 ENV SITE_OWNER_NAME=@maxmanbtc
 ENV SITE_NAME=Satdress
 
-COPY --from=builder /stefanjohansson/satdress-cloudron /usr/local/bin/
+COPY --from=builder /satdress-cloudron /usr/local/bin/
 
 EXPOSE 17422
 
