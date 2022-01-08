@@ -18,7 +18,7 @@ ENV SITE_OWNER_URL=https://maxmanbtc.com
 ENV SITE_OWNER_NAME=@maxmanbtc
 ENV SITE_NAME=Satdress
 
-COPY --from=builder /opt/build/satdress /usr/local/bin/
+COPY --from=builder /app/code/satdress /usr/local/bin/
 
 EXPOSE 17422
 
