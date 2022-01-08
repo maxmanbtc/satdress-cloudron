@@ -1,6 +1,6 @@
 FROM golang:1.16.0-alpine AS builder
 
-WORKDIR /opt/build
+WORKDIR /app/code
 
 COPY ./*.go ./*.html ./go.mod ./go.sum ./
 COPY static ./static
