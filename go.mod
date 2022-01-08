@@ -1,4 +1,4 @@
-module github.com/fiatjaf/satdress
+module github.com/maxmnbtc/satdress-cloudron
 
 go 1.16
 
